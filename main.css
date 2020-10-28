@@ -1,0 +1,11 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.animation {
+    background-color: cadetblue;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
