@@ -1,11 +1,36 @@
 html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+.text {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 1.2rem;
+  width: 95%;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: type 5s steps(40, end);
+  animation: type 5s steps(40, end);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.text-container {
+  margin-top: 3rem;
+}
+.paragraph {
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 1.4rem;
 }
 .animation {
-    background-color: cadetblue;
-    text-align: center;
-    color: #fff;
-    text-transform: uppercase;
+  background-color: cadetblue;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
 }
